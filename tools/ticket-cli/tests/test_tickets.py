@@ -1,3 +1,4 @@
+import pytest
 from ticket_cli.tickets import priority_rank
 
 
@@ -11,3 +12,8 @@ def test_iscase_insensitive():
 
 def test_medium_is_between_low_and_high():
     assert priority_rank("low") < priority_rank("medium") < priority_rank("high")
+
+
+def test_unkown_priority_raises():
+    with pytest.raises(ValueError, match="Unkown priority"):
+        priority_rank("banana")
