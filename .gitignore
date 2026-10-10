@@ -1,0 +1,14 @@
+# Python virtual environments and caches (rebuilt automatically)
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# Generated data and practice files
+data/
+scratch/
+
+# Secrets: never commit these
+.env

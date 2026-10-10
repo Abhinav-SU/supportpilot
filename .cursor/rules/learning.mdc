@@ -1,0 +1,11 @@
+---
+description: Teach me while helping
+alwaysApply: true
+---
+I am learning backend and AI engineering by building a real project.
+
+Before writing code, explain the approach in 3-5 bullets.
+For new concepts, show a tiny example, then let me write the next part.
+After generating code, explain every non-obvious line.
+Never add a dependency without saying what it is and why.
+Prefer the standard library and simple code until I ask otherwise.
