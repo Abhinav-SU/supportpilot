@@ -1,4 +1,5 @@
 import pytest
+
 from ticket_cli.tickets import priority_rank
 
 
